@@ -37,7 +37,9 @@ The project uses a fictionalized enterprise network so that no employer, custome
 
 ## Network Topology
 
-A network topology diagram will be added to illustrate the relationship between the corporate LAN, branch network, firewall, VPN, and DMZ.
+The lab uses a fictional enterprise environment containing a corporate LAN, branch network, DMZ, firewall, site-to-site VPN, and remote-access VPN.
+
+➡️ [View the Enterprise Network Topology](diagrams/network-topology.md)
 
 ## Troubleshooting Scenario
 
@@ -67,15 +69,25 @@ Users on the branch network are unable to reach a service hosted on the corporat
 - `arp -a`
 - Wireshark
 
-## Documentation
+## Project Documentation
 
-This repository will also include:
+### Network Topology
 
-- Network topology documentation
-- Troubleshooting notes
-- Packet-analysis examples
-- A network connectivity troubleshooting runbook
-- Sanitized screenshots from the lab
+➡️ [Enterprise Network Topology](diagrams/network-topology.md)
+
+Shows the simulated corporate LAN, branch LAN, DMZ, firewall, VPN connectivity, and network segmentation used throughout the project.
+
+### Network Troubleshooting Runbook
+
+➡️ [Network Connectivity Troubleshooting Runbook](documentation/network-troubleshooting-runbook.md)
+
+A structured workflow for investigating endpoint, DNS, routing, VPN, firewall, NAT, and connectivity problems.
+
+### Incident Walkthrough
+
+➡️ [Branch-to-Corporate Connectivity Incident](troubleshooting/branch-connectivity-incident.md)
+
+A simulated incident demonstrating how a branch connectivity problem can be triaged, investigated, escalated, and documented.
 
 ## Important Note
 
