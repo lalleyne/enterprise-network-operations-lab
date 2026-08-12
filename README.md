@@ -89,6 +89,12 @@ A structured workflow for investigating endpoint, DNS, routing, VPN, firewall, N
 
 A simulated incident demonstrating how a branch connectivity problem can be triaged, investigated, escalated, and documented.
 
+### Wireshark Packet Analysis
+
+➡️ [Wireshark Packet Analysis](analysis/wireshark-packet-analysis.md)
+
+A hands-on packet-analysis exercise demonstrating ICMP connectivity testing, DNS resolution analysis, and TCP three-way handshake validation using Wireshark.
+
 ## Important Note
 
 This is an independent portfolio lab. All network names, IP addresses, configurations, screenshots, and scenarios are fictionalized or recreated for demonstration purposes. No confidential employer or customer information is included.
